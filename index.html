@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Kuchupuchu ❤️</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app" id="app">
+
+  <!-- ============================================= -->
+  <!-- SCENE 1 — NIGHT SKY & TEDDY                    -->
+  <!-- ============================================= -->
+  <section class="scene scene--night scene--active" id="scene-1" data-scene="1">
+
+    <div class="sky" aria-hidden="true">
+      <div class="sky__moon">
+        <div class="sky__moon-crater sky__moon-crater--a"></div>
+        <div class="sky__moon-crater sky__moon-crater--b"></div>
+        <div class="sky__moon-crater sky__moon-crater--c"></div>
+      </div>
+      <div class="sky__stars" id="star-field"></div>
+      <div class="sky__cloud sky__cloud--a"></div>
+      <div class="sky__cloud sky__cloud--b"></div>
+      <div class="sky__cloud sky__cloud--c"></div>
+    </div>
+
+    <div class="floating-hearts" id="hearts-scene-1" aria-hidden="true"></div>
+
+    <div class="scene__content">
+
+      <div class="teddy" id="teddy">
+        <div class="teddy__speech-bubble" id="teddy-bubble">Wake me up... I missed you! 🧸💗</div>
+
+        <div class="teddy__ear teddy__ear--left"><span class="teddy__ear-inner"></span></div>
+        <div class="teddy__ear teddy__ear--right"><span class="teddy__ear-inner"></span></div>
+
+        <div class="teddy__head">
+          <div class="teddy__eye teddy__eye--left"></div>
+          <div class="teddy__eye teddy__eye--right"></div>
+          <div class="teddy__blush teddy__blush--left"></div>
+          <div class="teddy__blush teddy__blush--right"></div>
+          <div class="teddy__muzzle">
+            <div class="teddy__nose"></div>
+            <div class="teddy__smile"></div>
+          </div>
+        </div>
+
+        <div class="teddy__body">
+          <div class="teddy__belly"></div>
+          <div class="teddy__heart" id="teddy-heart"></div>
+        </div>
+
+        <div class="teddy__arm teddy__arm--left" id="teddy-arm-left"></div>
+        <div class="teddy__arm teddy__arm--right"></div>
+        <div class="teddy__leg teddy__leg--left"></div>
+        <div class="teddy__leg teddy__leg--right"></div>
+      </div>
+
+      <h1 class="scene__title">My Kuchupuchu <span class="heart-glyph">❤️</span></h1>
+      <p class="scene__subtitle">Someone misses you...</p>
+
+      <button class="btn btn--primary" id="btn-wake-teddy" type="button">Wake Teddy</button>
+    </div>
+  </section>
+
+  <!-- ============================================= -->
+  <!-- SCENE 2 — PARK                                 -->
+  <!-- ============================================= -->
+  <section class="scene scene--park" id="scene-2" data-scene="2">
+
+    <div class="park" aria-hidden="true">
+      <div class="park__sky-cloud park__sky-cloud--a"></div>
+      <div class="park__sky-cloud park__sky-cloud--b"></div>
+      <div class="park__sun"></div>
+
+      <div class="park__tree park__tree--left">
+        <div class="park__tree-trunk"></div>
+        <div class="park__tree-foliage"></div>
+      </div>
+      <div class="park__tree park__tree--right">
+        <div class="park__tree-trunk"></div>
+        <div class="park__tree-foliage"></div>
+      </div>
+
+      <div class="park__ground">
+        <div class="park__flower park__flower--1"><span></span><span></span><span></span><span></span><i></i></div>
+        <div class="park__flower park__flower--2"><span></span><span></span><span></span><span></span><i></i></div>
+        <div class="park__flower park__flower--3"><span></span><span></span><span></span><span></span><i></i></div>
+        <div class="park__flower park__flower--4"><span></span><span></span><span></span><span></span><i></i></div>
+        <div class="park__flower park__flower--5"><span></span><span></span><span></span><span></span><i></i></div>
+      </div>
+    </div>
+
+    <div class="floating-hearts" id="hearts-scene-2" aria-hidden="true"></div>
+
+    <div class="scene__content scene__content--park">
+
+      <div class="park__stage">
+        <div class="character character--boy" id="boy">
+          <div class="character__gift-flower" id="gift-flower">🌷</div>
+          <div class="character__sparkle character__sparkle--a">✨</div>
+          <div class="character__sparkle character__sparkle--b">✨</div>
+          <div class="character__hair character__hair--boy"></div>
+          <div class="character__head">
+            <div class="character__eye character__eye--left"></div>
+            <div class="character__eye character__eye--right"></div>
+            <div class="character__smile"></div>
+          </div>
+          <div class="character__torso character__torso--hoodie">
+            <div class="character__hood-string character__hood-string--left"></div>
+            <div class="character__hood-string character__hood-string--right"></div>
+          </div>
+          <div class="character__arm character__arm--left" id="boy-arm-left"></div>
+          <div class="character__arm character__arm--right" id="boy-arm-right"></div>
+          <div class="character__leg character__leg--left"></div>
+          <div class="character__leg character__leg--right"></div>
+          <div class="character__shoe character__shoe--left"></div>
+          <div class="character__shoe character__shoe--right"></div>
+        </div>
+
+        <div class="character character--girl" id="girl">
+          <div class="character__hair character__hair--girl-back"></div>
+          <div class="character__head">
+            <div class="character__eye character__eye--left"></div>
+            <div class="character__eye character__eye--right"></div>
+            <div class="character__blush character__blush--left"></div>
+            <div class="character__blush character__blush--right"></div>
+            <div class="character__smile"></div>
+          </div>
+          <div class="character__hair character__hair--girl-front"></div>
+          <div class="character__torso character__torso--dress"></div>
+          <div class="character__arm character__arm--left"></div>
+          <div class="character__arm character__arm--right"></div>
+          <div class="character__leg character__leg--left"></div>
+          <div class="character__leg character__leg--right"></div>
+          <div class="character__shoe character__shoe--left"></div>
+          <div class="character__shoe character__shoe--right"></div>
+        </div>
+      </div>
+
+      <h2 class="scene__title scene__title--light">I searched everywhere...<br>and finally found you.</h2>
+
+      <button class="btn btn--primary" id="btn-read-letter" type="button">Read My Letter</button>
+    </div>
+  </section>
+
+  <!-- ============================================= -->
+  <!-- SCENE 3 — LOVE LETTER                          -->
+  <!-- ============================================= -->
+  <section class="scene scene--letter" id="scene-3" data-scene="3">
+    <div class="floating-hearts" id="hearts-scene-3" aria-hidden="true"></div>
+
+    <div class="scene__content">
+      <div class="letter" id="letter">
+        <div class="letter__seal">❤️</div>
+        <div class="letter__paper">
+          <p class="letter__text" id="letter-text"></p>
+          <span class="letter__cursor" id="letter-cursor"></span>
+        </div>
+      </div>
+
+      <button class="btn btn--primary btn--hidden" id="btn-one-more-question" type="button">One More Question</button>
+    </div>
+  </section>
+
+  <!-- ============================================= -->
+  <!-- SCENE 4 — GROW OUR LOVE (interactive flower)   -->
+  <!-- ============================================= -->
+  <section class="scene scene--question" id="scene-4" data-scene="4">
+    <div class="floating-hearts" id="hearts-scene-4" aria-hidden="true"></div>
+
+    <div class="scene__content">
+      <h2 class="scene__title scene__title--light">Watch our love bloom</h2>
+      <p class="scene__subtitle scene__subtitle--dark" id="grow-hint">Tap the flower to water it</p>
+
+      <div class="bloom" id="bloom" data-stage="0">
+        <div class="bloom__head" id="bloom-head">
+          <div class="bloom__petal" style="--i:0"></div>
+          <div class="bloom__petal" style="--i:1"></div>
+          <div class="bloom__petal" style="--i:2"></div>
+          <div class="bloom__petal" style="--i:3"></div>
+          <div class="bloom__petal" style="--i:4"></div>
+          <div class="bloom__center">❤️</div>
+        </div>
+        <div class="bloom__leaf bloom__leaf--left" id="bloom-leaf-left"></div>
+        <div class="bloom__leaf bloom__leaf--right" id="bloom-leaf-right"></div>
+        <div class="bloom__stem" id="bloom-stem"></div>
+        <div class="bloom__pot">
+          <div class="bloom__pot-rim"></div>
+        </div>
+      </div>
+
+      <button class="btn btn--primary" id="btn-water" type="button">💧 Water it</button>
+      <p class="game__counter" id="grow-counter">0 / 6 waterings</p>
+    </div>
+
+    <div class="fx-layer" id="confetti-layer" aria-hidden="true"></div>
+    <div class="fx-layer" id="fireworks-layer" aria-hidden="true"></div>
+  </section>
+
+  <!-- ============================================= -->
+  <!-- ENDING                                         -->
+  <!-- ============================================= -->
+  <section class="scene scene--ending" id="scene-5" data-scene="5">
+    <div class="floating-hearts" id="hearts-scene-5" aria-hidden="true"></div>
+
+    <div class="scene__content">
+      <div class="hug-stage" id="hug-stage">
+        <div class="character character--boy character--hug-boy" id="hug-boy">
+          <div class="character__hair character__hair--boy"></div>
+          <div class="character__head">
+            <div class="character__eye character__eye--left"></div>
+            <div class="character__eye character__eye--right"></div>
+            <div class="character__smile"></div>
+          </div>
+          <div class="character__torso character__torso--hoodie">
+            <div class="character__hood-string character__hood-string--left"></div>
+            <div class="character__hood-string character__hood-string--right"></div>
+          </div>
+          <div class="character__arm character__arm--left character__arm--hugging"></div>
+          <div class="character__arm character__arm--right character__arm--hugging"></div>
+          <div class="character__leg character__leg--left"></div>
+          <div class="character__leg character__leg--right"></div>
+          <div class="character__shoe character__shoe--left"></div>
+          <div class="character__shoe character__shoe--right"></div>
+        </div>
+
+        <div class="character character--girl character--hug-girl" id="hug-girl">
+          <div class="character__hair character__hair--girl-back"></div>
+          <div class="character__head">
+            <div class="character__eye character__eye--left"></div>
+            <div class="character__eye character__eye--right"></div>
+            <div class="character__blush character__blush--left"></div>
+            <div class="character__blush character__blush--right"></div>
+            <div class="character__smile"></div>
+          </div>
+          <div class="character__hair character__hair--girl-front"></div>
+          <div class="character__torso character__torso--dress"></div>
+          <div class="character__arm character__arm--left character__arm--hugging"></div>
+          <div class="character__arm character__arm--right character__arm--hugging"></div>
+          <div class="character__leg character__leg--left"></div>
+          <div class="character__leg character__leg--right"></div>
+          <div class="character__shoe character__shoe--left"></div>
+          <div class="character__shoe character__shoe--right"></div>
+        </div>
+
+        <div class="hug-stage__big-heart" id="big-heart">❤️</div>
+      </div>
+
+      <h2 class="scene__title scene__title--light ending__headline">I LOVE YOU ❤️</h2>
+      <p class="ending__text">
+        Thank you for making my life beautiful.<br>
+        You are my happiest place.<br>
+        I Miss You My Kuchupuchu ❤️
+      </p>
+      <p class="ending__signature">Forever Yours,<br>Rahul ❤️</p>
+
+      <button class="btn btn--primary" id="btn-replay" type="button">Replay ↺</button>
+    </div>
+  </section>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
